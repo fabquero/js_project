@@ -1,0 +1,30 @@
+/*Accueil*/
+.backgroundAccueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Le menu de navigation*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#content {
+    display: flex; /*Pour afficher en ligne les images */
+}
+
+.slidePos{
+    display: flex;
+}
+
+/*Page 3 -> map perso*/
+.mapPerso{
+    display: flex;
+    flex-wrap: wrap;
+}

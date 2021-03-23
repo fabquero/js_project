@@ -1,0 +1,228 @@
+/*Corps de la page*/
+body{
+    background-color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url(../font/Quicksand-VariableFont_wght.ttf) format('truetype-variations');
+  font-variation-settings: 'wght' 300;
+}
+
+.backgroundAccueil{
+    background-image: url("../image/serge-kutuzov-_FPy-FUndok-unsplash__1587068267_46.193.66.53.webp");
+    background-size: 100vh;
+    background-position: top;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+
+/*Titre principal*/
+.titrePage{
+    font-size: 3rem;
+    text-align: center;
+    color: #ffe8d6;
+}
+
+.titre{
+    font-size: 10vw;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/*Menu de navigation*/
+
+.menu{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 3vw;
+    background-color: #ffe8d6;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.lienMenuCache{
+    opacity: 0;
+}
+
+.menuCache{
+    background: none;
+}
+
+.menu li a{
+
+    color: #ff971d;
+    text-decoration: none;
+
+}
+
+.menu .elemtMenu:hover{
+    border-bottom: solid red 2px;
+    transition-duration: 0.15s;
+}
+
+.btnM{
+    font-size: 2.3vw;
+    color: darkred;
+}
+
+.btnM:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+
+.btnTourner{
+    transform: rotate(45deg);
+}
+/*Slide show*/
+
+#content li{
+    width: 70vw; /*On une largeur a chaque balise li pour donner un espace entre chaque image*/
+
+}
+
+.imgSlide{
+    width: 60vw;
+    height: 100%;
+}
+
+
+article{
+    padding-top: 2rem;
+}
+
+#slideshow {
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+#content{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: -6vh;
+    left: 0;
+    width: 300vw;
+    margin: 0;            
+    padding: 0;
+    background-color: antiquewhite; /*Donne l'effet background prolongé sur les portables*/
+}
+
+.slidePos{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 40%;
+}
+
+.cercle{
+    color: black;
+    font-size: 1rem;
+    
+}
+
+/*Paragraphe*/
+h2{
+    text-align: center;
+    padding: 4vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p, .cptB{
+    margin: 3vw;
+    font-family: 'Quicksand';
+}
+
+p{
+    padding: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: antiquewhite;
+    text-align: justify;
+    border-radius: 5px 5px 5px;
+    line-height: 1.5rem;
+}
+
+.cptB{
+    margin-left: 20vw;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px;
+    width: 50%;
+    padding: 2rem;
+}
+.cptB li{
+    list-style-type:disc;
+}
+
+/*Map page 3*/
+
+.perso{
+    position: relative;
+    flex: 50%;
+}
+/*Css pour javascript*/
+.cacher{
+    display: none;
+}
+
+.cacherBtn{
+    display: none;
+}
+
+.agrandie{
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 5vw;
+    width: 80vw;
+    height: auto;
+    z-index: 200;
+}
+
+#petiteImg{
+    width: 20vw;
+    float: right;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.retour{
+    position: absolute;
+    z-index: 300;
+    top: 1vh;
+    right: 4vw;
+    color: aqua;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+
+/*Acualité*/
+.actuImg{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    text-align: center;
+}
+
+/*footer*/
+
+footer p{
+    background-color: orangered;
+    margin: 0;
+}

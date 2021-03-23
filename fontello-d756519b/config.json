@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "d30928620bda0d5eaa85d3b65bf19963",
+      "css": "right-circle",
+      "code": 59393,
+      "src": "websymbols"
+    },
+    {
+      "uid": "7e092c82e9a758b6e95297007969aac1",
+      "css": "left-circle",
+      "code": 59392,
+      "src": "websymbols"
+    },
+    {
+      "uid": "15739f3032c2aa3df67efc96b3ffef56",
+      "css": "cancel-circle",
+      "code": 59394,
+      "src": "websymbols"
+    },
+    {
+      "uid": "a66e72da83c98248ae3ef43808efc452",
+      "css": "plus-circle",
+      "code": 59395,
+      "src": "websymbols"
+    },
+    {
+      "uid": "422e07e5afb80258a9c4ed1706498f8a",
+      "css": "circle-empty",
+      "code": 61708,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5774d0a0e50f6eefc8be01bd761e5dd3",
+      "css": "circle-thin",
+      "code": 61915,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "81bb68665e8e595505272a746db07c7a",
+      "css": "dot-circled",
+      "code": 61842,
+      "src": "fontawesome"
+    }
+  ]
+}

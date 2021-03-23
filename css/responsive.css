@@ -1,0 +1,25 @@
+@media screen and (min-width: 570px){
+    .backgroundAccueil{
+        background-size: cover;
+    }
+    .imgSlide{
+    width: 60vw;
+    height: auto;
+}
+}
+
+@media screen and (max-height: 570px) and (min-width:50px ){
+    .backgroundAccueil{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .mapPerso{
+        display: block;
+    }
+    
+    .menu{
+        font-size: 1.5vh;
+    }
+}
